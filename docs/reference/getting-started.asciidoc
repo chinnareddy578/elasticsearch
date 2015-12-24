@@ -237,7 +237,7 @@ And the response:
 [source,sh]
 --------------------------------------------------
 curl 'localhost:9200/_cat/indices?v'
-health index pri rep docs.count docs.deleted store.size pri.store.size
+health status index pri rep docs.count docs.deleted store.size pri.store.size
 --------------------------------------------------
 
 Which simply means we have no indices yet in the cluster.
